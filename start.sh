@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2155
 
-NAME="hello"
-DESCRIPTION="A C++ template"
+NAME="aru-web"
+DESCRIPTION="Otreblan website"
 VERSION="0.0.0"
 REPOSITORY="otreblan/$NAME"
 HOMEPAGE_URL="https://github.com/$REPOSITORY"
