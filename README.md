@@ -10,6 +10,15 @@
 * `bash-completion`
 * `cmake`
 * `libdrogon-dev`
+* `libjsoncpp-dev`
+* `uuid-dev`
+* `libpq-dev`
+* `libsqlite3-dev`
+* `libmariadb-dev`
+* `libbrotli-dev`
+* `libhiredis-dev`
+* `libyaml-cpp-dev`
+* `libtrantor-dev`
 
 ## Build
 ``` bash

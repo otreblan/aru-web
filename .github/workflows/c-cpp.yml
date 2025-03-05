@@ -15,7 +15,19 @@ jobs:
     - uses: ammaraskar/gcc-problem-matcher@master
 
     - name: deps
-      run: sudo apt install asciidoctor bash-completion libdrogon-dev
+      run: sudo apt install
+        asciidoctor
+        bash-completion
+        libdrogon-dev
+        libjsoncpp-dev
+        uuid-dev
+        libpq-dev
+        libsqlite3-dev
+        libmariadb-dev
+        libbrotli-dev
+        libhiredis-dev
+        libyaml-cpp-dev
+        libtrantor-dev
 
     - name: configure
       run: cmake -B build
