@@ -9,6 +9,7 @@
 * `asciidoctor`
 * `bash-completion`
 * `cmake`
+* `libdrogon-dev`
 
 ## Build
 ``` bash

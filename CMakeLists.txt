@@ -42,6 +42,7 @@ set_target_properties(${PROJECT_NAME}
 
 # Packages
 find_package(bash-completion)
+find_package(Drogon)
 
 add_subdirectory(src) # Sources list
 add_subdirectory(doc) # Documentation
@@ -53,12 +54,13 @@ add_subdirectory(pkg) # Packaging
 #		libfoo1
 #		libfoo2
 #)
-#
-## Linking
-#target_link_libraries(${PROJECT_NAME}
-#	PRIVATE
+
+# Linking
+target_link_libraries(${PROJECT_NAME}
+	PRIVATE
+		Drogon::Drogon
 #		PkgConfig::libraries
-#)
+)
 
 # Default flags
 target_compile_options(${PROJECT_NAME}
