@@ -16,8 +16,13 @@
 
 #include <iostream>
 
+#include <drogon/HttpAppFramework.h>
+
 int main()
 {
-	std::cout << "Hello\n";
+	drogon::app()
+		.addListener("0.0.0.0", 8080)
+		.run();
+
 	return 0;
 }
